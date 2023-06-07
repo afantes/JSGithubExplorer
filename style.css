@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1f23ea;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+.input-container {
+    padding: 30px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-container input:focus {
+    border-color: #ff6b6b;
+}
+
+.input-container button {
+    padding: 12px 0;
+    margin: 10px auto;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+    background-color: #e64c4c;
+}
+
+.data-container {
+    padding: 0px 30px 30px;
+    text-align: center;
+}
+
+.data-container span {
+    color: #888;
+    font-size: 18px;
+}
+
+.data-container .repo-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-container .repo-box:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.data-container .repo-box .repo-name {
+    flex: 1;
+    text-align: left;
+}
+
+.data-container .repo-box a,
+.data-container .repo-box span {
+    color: #fff;
+    width: 80px;
+    padding: 4px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.data-container .repo-box a {
+    text-decoration: none;
+    background-color: #e91e63;
+    margin-right: 10px;
+}
+
+.data-container .repo-box span {
+    background-color: #009688;
+}
